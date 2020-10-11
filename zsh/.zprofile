@@ -1,0 +1,5 @@
+export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="$PATH:$GOPATH/bin"
+export PATH="$PATH:$(ruby -e 'puts Gem.user_dir')/bin"
+export PATH="$HOME/.local/bin:$PATH"
+export PATH="$HOME/wapm_packages/.bin:$PATH"
