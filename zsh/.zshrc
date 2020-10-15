@@ -48,6 +48,8 @@ alias angband="angband -mgcu"
 
 alias pacman="pacman --color=always"
 
+alias clang-format="clang-format -style=\"{IndentWidth: 4}\""
+
 alias l="exa"
 alias la="exa -a"
 alias ll="exa -aalg"
