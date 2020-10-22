@@ -44,7 +44,7 @@ export GOPATH="/home/maxwell/Code/go"
 export WASMER_DIR="/home/maxwell/.wasmer"
 [ -s "$WASMER_DIR/wasmer.sh" ] && source "$WASMER_DIR/wasmer.sh"
 
-alias angband="angband -mgcu"
+alias angband="angband -mgcu -dpref=.angband/Angband/customize"
 
 alias pacman="pacman --color=always"
 

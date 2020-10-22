@@ -2,6 +2,11 @@
 
 Using GNU `stow` to backup my dotfiles
 
+## Usage
+```
+./stowall.sh
+```
+
 ## Additions
 
 ### Example Layout
@@ -24,11 +29,11 @@ $HOME/.dotfiles
    └── .zshrc
 ```
 
-### Additions
+### Adding
 
 ```
 cd ~/.dotfiles
 mkdir DIRNAME
-# mkdir DIRNAME/SUBDIRNAME
+mv {DIR OR FILE IN ~} DIRNAME/
 stow DIRNAME
 ```

@@ -1,0 +1,34 @@
+name:filthy street urchin
+counts:1:0:1:0:4:0:0
+flags:UNIQUE | QUESTOR | MALE | FEMALE | GROUP_AI | FORCE_DEPTH | SPIRIT
+flags:INVISIBLE | COLD_BLOOD | CLEAR_WEB
+
+name:pitiful-looking beggar
+counts:4:0:1:0:4:0:0
+flags:UNIQUE | QUESTOR | MALE | FEMALE | GROUP_AI | FORCE_DEPTH | SPIRIT
+flags:INVISIBLE | COLD_BLOOD | CLEAR_WEB
+
+name:singing, happy drunk
+counts:6:0:1:0:0:0:0
+blow:BEG:NONE:0+0d0M0:2:0
+flags:UNIQUE | QUESTOR | MALE | FEMALE | GROUP_AI | FORCE_DEPTH | MULTIPLY
+flags:NEVER_BLOW | NEVER_MOVE | RAND_50 | SPIRIT | DROP_GOOD | DROP_GREAT
+flags:INVISIBLE | COLD_BLOOD | PASS_WALL | KILL_WALL | SMASH_WALL | CLEAR_WEB
+
+name:aimless-looking merchant
+counts:4:0:1:0:25:0:0
+flags:UNIQUE | QUESTOR | MALE | FEMALE | GROUP_AI | FORCE_DEPTH | SPIRIT
+flags:INVISIBLE | COLD_BLOOD | CLEAR_WEB
+
+name:mean-looking mercenary
+counts:1:0:0:0:1:0:0
+flags:UNIQUE | QUESTOR | MALE | FEMALE | GROUP_AI | SPIRIT | INVISIBLE
+flags:CLEAR_WEB
+
+name:battle-scarred veteran
+counts:8:0:2:0:63:0:0
+blow:HIT:HURT:0+2d6M0:2:0
+flags:UNIQUE | QUESTOR | MALE | FEMALE | GROUP_AI | FORCE_DEPTH | MULTIPLY
+flags:NEVER_BLOW | NEVER_MOVE | RAND_50 | SPIRIT | DROP_GOOD | DROP_GREAT
+flags:INVISIBLE | COLD_BLOOD | TAKE_ITEM | KILL_ITEM | CLEAR_WEB
+

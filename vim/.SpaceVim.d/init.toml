@@ -24,12 +24,14 @@
     enable_tabline_filetype_icon = true
     enable_statusline_mode = false
     default_indent = 4
+    autocomplete_parens = false
 
 # Enable autocomplete layer
 [[layers]]
 name = 'autocomplete'
 auto_completion_return_key_behavior = "complete"
 auto_completion_tab_key_behavior = "smart"
+enable = false
 
 [[layers]]
 name = 'shell'
@@ -52,6 +54,3 @@ rust = ["rls"]
 
 [[layers]]
 name = "lang#go"
-
-[[layers]]
-name = "lang#swift"
