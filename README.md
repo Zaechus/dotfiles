@@ -37,3 +37,14 @@ mkdir DIRNAME
 mv {DIR OR FILE IN ~} DIRNAME/
 stow DIRNAME
 ```
+
+## Packages
+```
+
+
+## Packages
+```
+./packages.sh
+./other.sh
+./gaming.sh
+```
