@@ -30,17 +30,12 @@ $HOME/.dotfiles
 ```
 
 ### Adding
-
 ```
 cd ~/.dotfiles
 mkdir DIRNAME
 mv {DIR OR FILE IN ~} DIRNAME/
 stow DIRNAME
 ```
-
-## Packages
-```
-
 
 ## Packages
 ```
