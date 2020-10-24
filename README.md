@@ -37,9 +37,10 @@ mv {DIR OR FILE IN ~} DIRNAME/
 stow DIRNAME
 ```
 
-## Packages
+## Misc setup
 ```
 ./packages.sh
 ./other.sh
 ./gaming.sh
+./setup.sh
 ```
