@@ -1,11 +1,13 @@
 #!/bin/sh
 
-git clone https://aur.archlinux.org/yay.git
-cd yay
-makepkg -si
-cd ..
-
-yay -Syu --needed otf-nerd-fonts-fira-code protonvpn-cli-ng zork1 zork2 zork3
+if [ ! -d "./yay" ]
+then
+    git clone https://aur.archlinux.org/yay.git
+    cd yay
+    makepkg -si
+    cd ..
+    yay -Syu --needed otf-nerd-fonts-fira-code protonvpn-cli-ng zork1 zork2 zork3
+fi
 
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
@@ -14,12 +16,16 @@ source $HOME/.cargo/env
 cargo install cargo-update
 cargo install starship
 
-source ~/.zshrc
+[ ! -d .zfunc ] && mkdir ~/.zfunc
 source ~/.zprofile
-mkdir ~/.zfunc
+rustup component add llvm-tools-preview rls rust-analysis rust-src
+rustup target add wasm32-wasi wasm32-unknown-unknown
 rustup completions zsh > ~/.zfunc/_rustup
 rustup completions zsh cargo > ~/.zfunc/_cargo
-exec zsh
+starship completions zsh > ~/.zfunc/_starship
 
 curl -sLf https://spacevim.org/install.sh | bash
 nvim
+nvim ~/.zprofile
+
+[ -f ~/.profile ] && rm ~/.profile
