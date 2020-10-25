@@ -15,6 +15,7 @@ source $HOME/.cargo/env
 
 cargo install cargo-update
 cargo install starship
+cargo install bottom
 
 [ ! -d .zfunc ] && mkdir ~/.zfunc
 source ~/.zprofile
