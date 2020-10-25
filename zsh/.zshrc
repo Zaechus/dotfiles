@@ -54,6 +54,9 @@ alias ll="exa -aalg"
 alias lt="exa -T -L"
 alias lta="exa -alT -L"
 
+alias pm="pulsemixer"
+alias br="brightnessctl set"
+
 alias vim="nvim -u NORC"
 
 eval "$(starship init zsh)"
