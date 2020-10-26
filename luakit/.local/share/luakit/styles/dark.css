@@ -1,0 +1,31 @@
+/* i really want this to be global */
+
+/* Invert all black+white colors and adjust other colors to complement */
+html {
+    filter: invert(1) hue-rotate(180deg);
+}
+
+/* Revert images to normal */
+img {
+    filter: invert(1) hue-rotate(180deg);
+}
+
+/* Mainly to make GitHub header dark */
+header, footer {
+    background: #eeeeee !important;
+}
+
+/* Fix black text in dark footers */
+footer div {
+    color: #222222 !important;
+}
+
+/* GitHub header buttons white */
+header summary {
+    color: black !important;
+}
+
+/* All links green */
+a {
+    color: green !important;
+}

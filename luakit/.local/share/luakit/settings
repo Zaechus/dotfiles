@@ -1,0 +1,11 @@
+{{
+["domain"]={2},
+},
+{
+[""]={3},
+},
+{
+["window.default_search_engine"]="duckduckgo",
+["webview.enable_developer_extras"]=true,
+},
+}

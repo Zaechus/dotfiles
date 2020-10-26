@@ -1,3 +1,15 @@
+# Packages
 yay
 incoming.txt
+
+# Vim
 *.netrwhist
+
+# Luakit
+luakit/.local/share/luakit/*
+!luakit/.local/share/luakit/adblock/*
+!luakit/.local/share/luakit/bookmarks.db
+!luakit/.local/share/luakit/newtab.html
+!luakit/.local/share/luakit/settings
+!luakit/.local/share/luakit/styles
+!luakit/.local/share/luakit/styles.db
