@@ -11,7 +11,7 @@ img {
 }
 
 /* Mainly to make GitHub header dark */
-header, footer {
+header, footer, nav {
     background: #eeeeee !important;
 }
 
