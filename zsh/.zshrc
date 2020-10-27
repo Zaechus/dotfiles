@@ -57,6 +57,21 @@ alias lta="exa -alT -L"
 alias pm="pulsemixer"
 alias br="brightnessctl set"
 
+qemu-create-img() {
+    # <name.img> <sizeG>
+    qemu-img create -f qcow2 $1 $2
+}
+
+qemu-boot-img() {
+    # <name.img>
+    qemu-system-x86_64 -m 2048 -enable-kvm -vga std -smp 3 -net nic -net user -hda $1
+}
+
+qemu-boot-iso() {
+    # <name.img> <name.iso>
+    qemu-system-x86_64 -m 2048 -boot d -enable-kvm -vga std -smp 3 -net nic -net user -hda $1 -cdrom $2
+}
+
 alias vim="nvim -u NORC"
 
 eval "$(starship init zsh)"
