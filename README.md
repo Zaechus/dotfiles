@@ -44,3 +44,6 @@ stow DIRNAME
 ./gaming.sh
 ./setup.sh
 ```
+
+### Enable Esync
+Add `USERNAME hard nofile 524288` to `/etc/security/limits.conf`.
