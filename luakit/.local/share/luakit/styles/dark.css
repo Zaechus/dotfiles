@@ -17,7 +17,7 @@ a {
 }
 }
 @-moz-document
-regexp("^(?!.*(?:artixlinux.org|duckduckgo.com|luakit://|reddit.com|stackoverflow.com)).*$")
+regexp("^(?!.*(?:artixlinux.org|duckduckgo.com|luakit://|reddit.com|stackoverflow.com|spacevim.org)).*$")
 {
 /* Invert all black+white colors and adjust other colors to complement */
 html {
