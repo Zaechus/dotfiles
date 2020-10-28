@@ -54,3 +54,6 @@ rust = ["rls"]
 
 [[layers]]
 name = "lang#go"
+
+[[layers]]
+name = "lang#latex"

@@ -25,6 +25,7 @@ rustup completions zsh > ~/.zfunc/_rustup
 rustup completions zsh cargo > ~/.zfunc/_cargo
 starship completions zsh > ~/.zfunc/_starship
 
+cd ~
 curl -sLf https://spacevim.org/install.sh | bash
 nvim
 nvim ~/.zprofile
