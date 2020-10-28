@@ -208,6 +208,11 @@ bindsym $mod+Shift+s exec 'swaylock -c 000000'
 xwayland disable
 
 #
+# Change font
+#
+font Fira Code Nerd Font 10
+
+#
 # Status Bar:
 #
 # Read `man 5 sway-bar` for more information about this section.
