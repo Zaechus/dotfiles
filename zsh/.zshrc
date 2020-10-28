@@ -65,12 +65,12 @@ qemu-create-img() {
 
 qemu-boot-img() {
     # <name.img>
-    qemu-system-x86_64 -m 2048 -smbios type=0,uefi=on -enable-kvm -vga std -smp 3 -net nic -net user -hda $1
+    qemu-system-x86_64 -m 2048 -enable-kvm -vga std -smp 3 -net nic -net user -hda $1
 }
 
 qemu-boot-iso() {
     # <name.img> <name.iso>
-    qemu-system-x86_64 -m 2048 -smbios type=0,uefi=on -boot d -enable-kvm -vga std -smp 3 -net nic -net user -hda $1 -cdrom $2
+    qemu-system-x86_64 -m 2048 -boot d -enable-kvm -vga std -smp 3 -net nic -net user -hda $1 -cdrom $2
 }
 
 alias vim="nvim -u NORC"
