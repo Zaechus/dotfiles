@@ -41,8 +41,11 @@ stow DIRNAME
 ```
 ./packages.sh
 ./other.sh
-./gaming.sh
+./games.sh
+./wine.sh
 ./setup.sh
+
+./big.sh
 ```
 
 ### Enable Esync
