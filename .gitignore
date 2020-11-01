@@ -1,6 +1,7 @@
 # Packages
 yay
-incoming.txt
+*.txt
+!trusted.txt
 
 # Vim
 *.netrwhist
