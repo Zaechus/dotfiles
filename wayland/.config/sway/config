@@ -18,9 +18,14 @@ set $term alacritty
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
-set $menu bemenu-run --fn "Fira Code Nerd Font 12"
+set $menu bemenu-run --fn "Fira Code Nerd Font 12" --tb "#00cc00" --tf "#111111" --hf "#00cc00"
 
-### Output configuration
+#
+# Theming
+#
+client.unfocused "#333333" "#222222" "#00dd00"
+
+### Output conf guration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
 output * bg /usr/share/backgrounds/Artix_eko.jpg fill
