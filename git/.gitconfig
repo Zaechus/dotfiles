@@ -1,3 +1,5 @@
 [user]
 	email = maxwell.brayden.anderson@gmail.com
 	name = Maxwell Anderson
+[pull]
+	rebase = false
