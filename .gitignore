@@ -1,5 +1,5 @@
 # Packages
-yay
+paru-bin
 *.txt
 !trusted.txt
 

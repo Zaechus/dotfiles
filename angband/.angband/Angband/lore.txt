@@ -3,6 +3,11 @@ counts:1:0:1:0:4:0:0
 flags:UNIQUE | QUESTOR | MALE | FEMALE | GROUP_AI | FORCE_DEPTH | SPIRIT
 flags:INVISIBLE | COLD_BLOOD | CLEAR_WEB
 
+name:boil-covered wretch
+counts:1:0:1:0:3:0:0
+flags:UNIQUE | QUESTOR | MALE | FEMALE | GROUP_AI | FORCE_DEPTH | SPIRIT
+flags:INVISIBLE | COLD_BLOOD | CLEAR_WEB
+
 name:pitiful-looking beggar
 counts:4:0:1:0:4:0:0
 flags:UNIQUE | QUESTOR | MALE | FEMALE | GROUP_AI | FORCE_DEPTH | SPIRIT

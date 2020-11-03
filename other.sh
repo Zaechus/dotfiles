@@ -1,21 +1,24 @@
 #!/bin/sh
 
-if [ ! -d "./yay" ]
-then
-    git clone https://aur.archlinux.org/yay.git
-    cd yay
-    makepkg -si
-    cd ..
-    yay -Syu --needed otf-nerd-fonts-fira-code protonvpn-cli-ng zork1 zork2 zork3
-fi
-
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 source $HOME/.cargo/env
 
+if [ ! -d "./paru-bin" ]
+then
+    git clone https://aur.archlinux.org/paru-bin.git
+    cd paru-bin
+    makepkg -si
+    cd ..
+    paru -Syu --needed otf-nerd-fonts-fira-code protonvpn-cli-ng zork1 zork2 zork3
+fi
+
+cargo install topgrade
 cargo install cargo-update
 cargo install starship
 cargo install bottom
+cargo install wasm-pack
+cargo install just
 
 [ ! -d .zfunc ] && mkdir ~/.zfunc
 source ~/.zprofile
