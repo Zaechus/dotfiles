@@ -3,6 +3,11 @@ counts:1:0:1:0:4:0:0
 flags:UNIQUE | QUESTOR | MALE | FEMALE | GROUP_AI | FORCE_DEPTH | SPIRIT
 flags:INVISIBLE | COLD_BLOOD | CLEAR_WEB
 
+name:blubbering idiot
+counts:2:0:1:0:7:0:0
+flags:UNIQUE | QUESTOR | MALE | FEMALE | GROUP_AI | FORCE_DEPTH | SPIRIT
+flags:INVISIBLE | COLD_BLOOD | CLEAR_WEB
+
 name:boil-covered wretch
 counts:1:0:1:0:3:0:0
 flags:UNIQUE | QUESTOR | MALE | FEMALE | GROUP_AI | FORCE_DEPTH | SPIRIT
@@ -12,6 +17,11 @@ name:pitiful-looking beggar
 counts:4:0:1:0:4:0:0
 flags:UNIQUE | QUESTOR | MALE | FEMALE | GROUP_AI | FORCE_DEPTH | SPIRIT
 flags:INVISIBLE | COLD_BLOOD | CLEAR_WEB
+
+name:squint-eyed rogue
+counts:2:0:0:0:0:0:0
+flags:UNIQUE | QUESTOR | MALE | FEMALE | GROUP_AI | SPIRIT | INVISIBLE
+flags:CLEAR_WEB
 
 name:singing, happy drunk
 counts:6:0:1:0:0:0:0
@@ -38,7 +48,7 @@ flags:NEVER_BLOW | NEVER_MOVE | RAND_50 | SPIRIT | DROP_GOOD | DROP_GREAT
 flags:INVISIBLE | COLD_BLOOD | TAKE_ITEM | KILL_ITEM | CLEAR_WEB
 
 name:grey mold
-counts:2:0:2:0:0:0:0
+counts:3:0:2:0:0:0:0
 flags:UNIQUE | QUESTOR | MALE | FEMALE | GROUP_AI | FORCE_DEPTH | MULTIPLY
 flags:NEVER_MOVE | INVISIBLE | COLD_BLOOD | HURT_FIRE | IM_POIS | NO_FEAR
 flags:NO_CONF | NO_SLEEP
@@ -53,6 +63,11 @@ name:giant yellow centipede
 counts:1:0:1:0:1:0:0
 flags:UNIQUE | QUESTOR | MALE | FEMALE | GROUP_AI | FORCE_DEPTH | NEVER_MOVE
 flags:INVISIBLE | COLD_BLOOD | WEIRD_MIND | ANIMAL
+
+name:giant white centipede
+counts:2:0:1:0:6:0:0
+flags:UNIQUE | QUESTOR | MALE | FEMALE | GROUP_AI | FORCE_DEPTH | NEVER_MOVE
+flags:RAND_50 | INVISIBLE | COLD_BLOOD | WEIRD_MIND | ANIMAL
 
 name:giant white mouse
 counts:2:0:1:1:1:0:0
@@ -83,4 +98,16 @@ blow:BITE:HURT:0+1d2M0:1:0
 flags:UNIQUE | QUESTOR | MALE | FEMALE | GROUP_AI | FORCE_DEPTH | MULTIPLY
 flags:NEVER_BLOW | NEVER_MOVE | INVISIBLE | COLD_BLOOD | WEIRD_MIND
 flags:BASH_DOOR | ANIMAL
+
+name:fruit bat
+counts:3:0:1:0:0:0:0
+blow:BITE:HURT:0+1d1M0:1:0
+flags:UNIQUE | QUESTOR | MALE | FEMALE | GROUP_AI | FORCE_DEPTH | MULTIPLY
+flags:NEVER_BLOW | NEVER_MOVE | RAND_25 | INVISIBLE | COLD_BLOOD | PASS_WALL
+flags:KILL_WALL | SMASH_WALL | ANIMAL
+
+name:yellow mold
+counts:1:0:0:0:8:0:0
+flags:UNIQUE | QUESTOR | MALE | FEMALE | GROUP_AI | NEVER_MOVE | INVISIBLE
+flags:COLD_BLOOD | HURT_FIRE | IM_POIS | NO_FEAR | NO_CONF | NO_SLEEP
 

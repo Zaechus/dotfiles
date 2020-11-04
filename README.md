@@ -51,7 +51,8 @@ stow DIRNAME
 ### Enable Esync
 Add `USERNAME hard nofile 524288` to `/etc/security/limits.conf`.
 
-### Gaming key repeat speed
+### Gaming performance settings
 ```
 xset r rate 125 200
+xrandr -s 1280x720
 ```
