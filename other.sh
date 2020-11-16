@@ -28,6 +28,8 @@ rustup completions zsh > ~/.zfunc/_rustup
 rustup completions zsh cargo > ~/.zfunc/_cargo
 starship completions zsh > ~/.zfunc/_starship
 
+curl -fsSL https://deno.land/x/install/install.sh | sh
+
 cd ~
 curl -sLf https://spacevim.org/install.sh | bash
 nvim

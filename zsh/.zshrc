@@ -38,6 +38,8 @@ export SDL_VIDEODRIVER=wayland
 export QT_QPA_PLATFORM=wayland
 export QT_QPA_PLATFORMTHEME=qt5ct
 
+export DENO_INSTALL="/home/maxwell/.deno"
+
 export GOPATH="/home/maxwell/Code/go"
 
 # Wasmer
