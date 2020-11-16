@@ -39,8 +39,10 @@ export QT_QPA_PLATFORM=wayland
 export QT_QPA_PLATFORMTHEME=qt5ct
 
 export DENO_INSTALL="/home/maxwell/.deno"
+export PATH="$PATH:$DENO_INSTALL/bin"
 
 export GOPATH="/home/maxwell/Code/go"
+export PATH="$PATH:$GOPATH/bin"
 
 # Wasmer
 export WASMER_DIR="/home/maxwell/.wasmer"
