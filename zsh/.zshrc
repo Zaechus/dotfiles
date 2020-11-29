@@ -31,7 +31,6 @@ source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 export EDITOR=nvim
-export PAGER=bat
 
 export MOZ_ENABLE_WAYLAND=1
 export SDL_VIDEODRIVER=wayland
