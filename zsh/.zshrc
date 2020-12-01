@@ -49,6 +49,7 @@ export WASMER_DIR="/home/maxwell/.wasmer"
 
 alias angband="angband -mgcu -dpref=.angband/Angband/customize"
 
+alias ip="ip -c"
 alias pacman="pacman --color=always"
 
 alias l="exa"
