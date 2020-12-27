@@ -36,3 +36,7 @@ nvim
 nvim ~/.zprofile
 
 [ -f ~/.profile ] && rm ~/.profile
+
+sudo pacman -S pulseaudio-bluetooth bluez-utils bluez-openrc
+sudo rc-update add bluetoothd
+sudo connmanctl enable bluetooth
