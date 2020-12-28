@@ -15,8 +15,10 @@ sudo useradd -m lewxam && sudo passwd lewxam
 echo "xamax"
 sudo useradd -m xamax && sudo passwd xamax
 
+sudo usermod -a -G lp maxwell
 sudo usermod -a -G video lewxam
 sudo usermod -a -G games lewxam
+sudo usermod -a -G lp lewxam
 sudo usermod -a -G video xamax
 
 sudo cp /etc/X11/xinit/xinitrc /home/lewxam/.xinitrc
