@@ -4,5 +4,5 @@ alias unsc2="xset r rate 660 25 && xrandr -s 1366x768"
 
 #alias bw="unsc2 && ( WINEPREFIX=~/Games/starcraft-remastered nohup wine ~/Games/starcraft-remastered/drive_c/Program\ Files\ \(x86\)/StarCraft/StarCraft\ Launcher.exe > /dev/null & )"
 
-alias wowtbc="unsc2 && ( WINEPREFIX=~/Games/world-of-warcraft nohup wine ~/Games/world-of-warcraft/drive_c/users/lewxam/WoWTBC/Wow.exe > /dev/null & )"
+alias wowtbc="unsc2 && ( WINEPREFIX=~/Games/world-of-warcraft-tbc nohup wine ~/Games/world-of-warcraft-tbc/drive_c/users/lewxam/WoWTBC/Wow.exe > /dev/null & )"
 alias hstone="unsc2 && ( WINEPREFIX=~/Games/hearthstone nohup wine ~/Games/hearthstone/drive_c/Program\ Files\ \(x86\)/Hearthstone/Hearthstone.exe > /dev/null & )"
