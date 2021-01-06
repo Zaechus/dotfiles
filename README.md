@@ -43,6 +43,7 @@ stow DIRNAME
 ./other.sh
 ./games.sh
 ./wine.sh
+./intel.sh
 ./setup.sh
 
 ./big.sh
