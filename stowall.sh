@@ -2,4 +2,4 @@
 
 [ ! -d ~/.SpaceVim.d ] && mkdir ~/.SpaceVim.d
 
-stow alacritty angband git luakit vim wayland zsh
+stow alacritty angband git vim wayland zsh
