@@ -54,5 +54,6 @@ Add `USERNAME hard nofile 524288` to `/etc/security/limits.conf`.
 
 ### Gaming performance settings
 ```
+xrandr --output <OUTPUT> --mode 1280x720 --rate 60.00
 xset r rate 150 200
 ```
