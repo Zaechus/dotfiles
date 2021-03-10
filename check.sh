@@ -1,4 +1,4 @@
 #!/bin/sh
 
 pacman -Qqe > incoming.txt
-python check.py trusted.txt incoming.txt
+diff trusted.txt incoming.txt | bat
