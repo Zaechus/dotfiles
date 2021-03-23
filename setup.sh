@@ -23,6 +23,8 @@ sudo usermod -a -G lp lewxam
 sudo usermod -a -G audio lewxam
 sudo usermod -a -G video xamax
 
+sudo chmod 775 /var/games
+
 sudo cp /etc/X11/xinit/xinitrc /home/lewxam/.xinitrc
 sudo chown lewxam:lewxam /home/lewxam/.xinitrc
 sudo nvim /home/lewxam/.xinitrc
