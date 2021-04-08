@@ -1,6 +1,5 @@
 0ad
 alacritty
-alsa-plugins
 amd-ucode
 angband
 artix-backgrounds
