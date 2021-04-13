@@ -62,6 +62,9 @@ alias pm="pulsemixer"
 alias br="brightnessctl set"
 alias rgg="rg -i -A 1 -B 1"
 
+alias sc2cfg="xset r rate 150 150"
+alias unsc2="xset r rate 200 60"
+
 qemu-create-img() {
     # <name.img> <sizeG>
     qemu-img create -f qcow2 $1 $2
