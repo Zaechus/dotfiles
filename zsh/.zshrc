@@ -1,5 +1,5 @@
 # The following lines were added by compinstall
-zstyle :compinstall filename '/home/maxwell/.zshrc'
+zstyle :compinstall filename '$HOME/.zshrc'
 
 autoload -Uz compinit
 
@@ -37,14 +37,14 @@ export SDL_VIDEODRIVER=wayland
 export QT_QPA_PLATFORM=wayland
 export QT_QPA_PLATFORMTHEME=qt5ct
 
-export DENO_INSTALL="/home/maxwell/.deno"
+export DENO_INSTALL="$HOME/.deno"
 export PATH="$PATH:$DENO_INSTALL/bin"
 
-export GOPATH="/home/maxwell/Code/go"
+export GOPATH="$HOME/Code/go"
 export PATH="$PATH:$GOPATH/bin"
 
 # Wasmer
-export WASMER_DIR="/home/maxwell/.wasmer"
+export WASMER_DIR="$HOME/.wasmer"
 [ -s "$WASMER_DIR/wasmer.sh" ] && source "$WASMER_DIR/wasmer.sh"
 
 alias angband="angband -mgcu -dpref=.angband/Angband/customize"
