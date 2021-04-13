@@ -47,24 +47,6 @@ export PATH="$PATH:$GOPATH/bin"
 export WASMER_DIR="$HOME/.wasmer"
 [ -s "$WASMER_DIR/wasmer.sh" ] && source "$WASMER_DIR/wasmer.sh"
 
-alias angband="angband -mgcu -dpref=.angband/Angband/customize"
-
-alias ip="ip -c"
-alias pacman="pacman --color=always"
-
-alias l="exa"
-alias la="exa -a"
-alias ll="exa -aalg"
-alias lt="exa -T -L"
-alias lta="exa -alT -L"
-
-alias pm="pulsemixer"
-alias br="brightnessctl set"
-alias rgg="rg -i -A 1 -B 1"
-
-alias sc2cfg="xset r rate 150 150"
-alias unsc2="xset r rate 200 60"
-
 qemu-create-img() {
     # <name.img> <sizeG>
     qemu-img create -f qcow2 $1 $2
@@ -80,6 +62,6 @@ qemu-boot-iso() {
     qemu-system-x86_64 -m 2048 -boot d -enable-kvm -vga std -smp 3 -net nic -net user -hda $1 -cdrom $2
 }
 
-alias vim="nvim -u NORC"
+source $HOME/.zsh_aliases
 
 eval "$(starship init zsh)"
