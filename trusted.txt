@@ -115,6 +115,7 @@ man-db
 minecraft-launcher
 mpg123
 mpv
+ncpamixer
 neofetch
 neovim
 noto-fonts
@@ -143,7 +144,6 @@ pkgconf
 pulseaudio
 pulseaudio-alsa
 pulseaudio-bluetooth
-pulsemixer
 python
 python-pip
 python-pynvim
