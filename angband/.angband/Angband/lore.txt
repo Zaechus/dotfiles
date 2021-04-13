@@ -4,7 +4,7 @@ flags:UNIQUE | QUESTOR | MALE | FEMALE | GROUP_AI | FORCE_DEPTH | SPIRIT
 flags:INVISIBLE | COLD_BLOOD | CLEAR_WEB
 
 name:blubbering idiot
-counts:2:0:1:0:7:0:0
+counts:3:0:1:0:7:0:0
 flags:UNIQUE | QUESTOR | MALE | FEMALE | GROUP_AI | FORCE_DEPTH | SPIRIT
 flags:INVISIBLE | COLD_BLOOD | CLEAR_WEB
 
@@ -13,15 +13,20 @@ counts:1:0:1:0:3:0:0
 flags:UNIQUE | QUESTOR | MALE | FEMALE | GROUP_AI | FORCE_DEPTH | SPIRIT
 flags:INVISIBLE | COLD_BLOOD | CLEAR_WEB
 
+name:village idiot
+counts:1:0:0:0:2:0:0
+flags:UNIQUE | QUESTOR | MALE | FEMALE | GROUP_AI | SPIRIT | INVISIBLE
+flags:COLD_BLOOD | CLEAR_WEB
+
 name:pitiful-looking beggar
 counts:4:0:1:0:4:0:0
 flags:UNIQUE | QUESTOR | MALE | FEMALE | GROUP_AI | FORCE_DEPTH | SPIRIT
 flags:INVISIBLE | COLD_BLOOD | CLEAR_WEB
 
 name:squint-eyed rogue
-counts:2:0:0:0:0:0:0
+counts:3:0:0:0:0:0:0
 flags:UNIQUE | QUESTOR | MALE | FEMALE | GROUP_AI | SPIRIT | INVISIBLE
-flags:CLEAR_WEB
+flags:COLD_BLOOD | CLEAR_WEB
 
 name:singing, happy drunk
 counts:6:0:1:0:0:0:0
