@@ -139,7 +139,6 @@ paru-bin
 patch
 pcmanfm-qt
 pkgconf
-protonvpn-cli-ng
 pulseaudio
 pulseaudio-alsa
 pulseaudio-bluetooth
