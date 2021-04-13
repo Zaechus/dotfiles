@@ -38,6 +38,7 @@ flex
 gawk
 gcc
 gettext
+gimp
 git
 gnuchess
 gnugo
