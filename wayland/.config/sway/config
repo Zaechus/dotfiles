@@ -208,9 +208,9 @@ bindsym $mod+r mode "resize"
 bindsym $mod+Shift+s exec 'swaylock -c 000000'
 
 #
-# No XWayland cuz no games
+# No XWayland cuz no games; temporarily enabled due to temporary xorg applications
 #
-xwayland disable
+#xwayland disable
 
 #
 # Change font
