@@ -26,6 +26,7 @@ rustup component add llvm-tools-preview rls rust-analysis rust-src
 rustup target add wasm32-wasi wasm32-unknown-unknown
 rustup completions zsh > ~/.zfunc/_rustup
 rustup completions zsh cargo > ~/.zfunc/_cargo
+rustup +nightly component add rust-analyzer-preview
 starship completions zsh > ~/.zfunc/_starship
 
 curl -fsSL https://deno.land/x/install/install.sh | sh
