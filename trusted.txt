@@ -96,7 +96,6 @@ linux-headers
 lutris
 lximage-qt
 lxqt-admin
-lxqt-archiver
 lxqt-config
 lxqt-globalkeys
 lxqt-notificationd
