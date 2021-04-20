@@ -33,6 +33,9 @@ starship completions zsh > ~/.zfunc/_starship
 curl -fsSL https://deno.land/x/install/install.sh | sh
 
 cd ~
+mkdir -p ~/.local/share/nvim/site/pack/plugins/start
+git clone https://github.com/rust-lang/rust.vim ~/.local/share/nvim/site/pack/plugins/start/rust.vim
+git clone https://github.com/vim-syntastic/syntastic.git ~/.local/share/nvim/site/pack/plugins/start/syntastic
 nvim ~/.zprofile
 
 [ -f ~/.profile ] && rm ~/.profile
