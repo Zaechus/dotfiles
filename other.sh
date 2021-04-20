@@ -33,8 +33,6 @@ starship completions zsh > ~/.zfunc/_starship
 curl -fsSL https://deno.land/x/install/install.sh | sh
 
 cd ~
-curl -sLf https://spacevim.org/install.sh | bash
-nvim
 nvim ~/.zprofile
 
 [ -f ~/.profile ] && rm ~/.profile

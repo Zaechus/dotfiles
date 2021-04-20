@@ -17,9 +17,6 @@ $HOME/.dotfiles
 │     └── alacritty
 ├── git
 │  └── .gitconfig
-├── vim
-│  └── .SpaceVim.d
-│     └── init.toml
 ├── wayland
 │  └── .config
 │     ├── sway
