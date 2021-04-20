@@ -36,6 +36,11 @@ cd ~
 mkdir -p ~/.local/share/nvim/site/pack/plugins/start
 git clone https://github.com/rust-lang/rust.vim ~/.local/share/nvim/site/pack/plugins/start/rust.vim
 git clone https://github.com/vim-syntastic/syntastic.git ~/.local/share/nvim/site/pack/plugins/start/syntastic
+git clone https://github.com/preservim/nerdtree.git ~/.local/share/nvim/site/pack/plugins/start/nerdtree
+git clone https://github.com/preservim/nerdcommenter.git ~/.local/share/nvim/site/pack/plugins/start/nerdcommenter
+git clone https://github.com/airblade/vim-gitgutter.git ~/.local/share/nvim/site/pack/plugins/start/vim-gitgutter
+git clone https://github.com/itchyny/lightline.vim ~/.local/share/nvim/site/pack/plugins/start/lightline
+
 nvim ~/.zprofile
 
 [ -f ~/.profile ] && rm ~/.profile
