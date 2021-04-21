@@ -1,5 +1,7 @@
 set number
-colorscheme industry
+"colorscheme industry
+set termguicolors
+colorscheme gruvbox
 set cursorline
 
 set tabstop=4 shiftwidth=4 softtabstop=4 expandtab
@@ -12,9 +14,6 @@ syntax enable
 filetype plugin indent on
 "let g:rustfmt_autosave = 1
 map <Leader>f :RustFmt <Enter>
-
-" Save+quit all
-map <C-x> :wqa <Enter>
 
 " Split a terminal vertically or horizontally
 map <F5> :vsp +term <Enter> i

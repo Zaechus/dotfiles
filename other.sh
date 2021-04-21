@@ -40,6 +40,7 @@ git clone https://github.com/preservim/nerdtree.git ~/.local/share/nvim/site/pac
 git clone https://github.com/preservim/nerdcommenter.git ~/.local/share/nvim/site/pack/plugins/start/nerdcommenter
 git clone https://github.com/airblade/vim-gitgutter.git ~/.local/share/nvim/site/pack/plugins/start/vim-gitgutter
 git clone https://github.com/itchyny/lightline.vim ~/.local/share/nvim/site/pack/plugins/start/lightline
+git clone https://github.com/morhetz/gruvbox.git ~/.local/share/nvim/site/pack/plugins/start/gruvbox
 
 nvim ~/.zprofile
 
