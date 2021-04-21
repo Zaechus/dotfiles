@@ -1,7 +1,7 @@
 set number
-"colorscheme industry
+colorscheme industry
 set termguicolors
-colorscheme gruvbox
+silent! colorscheme gruvbox
 set cursorline
 
 set tabstop=4 shiftwidth=4 softtabstop=4 expandtab
