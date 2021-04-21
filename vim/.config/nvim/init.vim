@@ -39,11 +39,15 @@ nnoremap <A-Down> <C-w>j
 nnoremap <A-Up> <C-w>k
 nnoremap <A-Right> <C-w>l
 
-" Alt+Shift+<arrow> to resize
+" Alt+Shift+<arrow> to resize split
 map <A-S-Left> <C-w><
 map <A-S-Down> <C-w>-
 map <A-S-Up> <C-w>+
 map <A-S-Right> <C-w>>
+
+" Ctrl+Shift+[PgUp/PgDown] to swap tab positions
+map <C-S-PageDown> :tabmove + <Enter>
+map <C-S-PageUp> :tabmove - <Enter>
 
 " NERDTree
 map <F4> :NERDTree <Enter>
