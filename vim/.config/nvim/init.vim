@@ -6,6 +6,7 @@ set cursorline
 
 set tabstop=4 shiftwidth=4 softtabstop=4 expandtab
 set autoindent
+set nowrap
 
 let mapleader = " "
 
