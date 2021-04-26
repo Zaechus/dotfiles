@@ -10,7 +10,7 @@ then
     cd paru-bin
     makepkg -si
     cd ..
-    paru -Syu --needed otf-nerd-fonts-fira-code zork1 zork2 zork3 ncpamixer
+    paru -Syu --needed otf-nerd-fonts-fira-code zork1 zork2 zork3 ncpamixer protonvpn-cli-ng-git
 fi
 
 cargo install topgrade
