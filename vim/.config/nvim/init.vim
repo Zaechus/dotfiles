@@ -14,12 +14,12 @@ let mapleader = " "
 syntax enable
 filetype plugin indent on
 "let g:rustfmt_autosave = 1
-map <Leader>f :RustFmt <Enter>
+map <Leader>f :RustFmt <CR>
 
 " Split a terminal vertically or horizontally
-map <F5> :vsp +term <Enter> i
+map <F5> :vsp +term <CR> i
 set splitright
-map <F6> :sp +term <Enter> :resize 10 <Enter> i
+map <F6> :sp +term <CR> :resize 10 <CR> i
 set splitbelow
 
 " Alt+<arrow> to navigate windows in any mode
@@ -47,11 +47,11 @@ map <A-S-Up> <C-w>+
 map <A-S-Right> <C-w>>
 
 " Ctrl+Shift+[PgUp/PgDown] to swap tab positions
-map <C-S-PageDown> :tabmove + <Enter>
-map <C-S-PageUp> :tabmove - <Enter>
+map <C-S-PageDown> :tabmove + <CR>
+map <C-S-PageUp> :tabmove - <CR>
 
 " NERDTree
-map <F4> :NERDTree <Enter>
+map <F4> :NERDTree <CR>
 
 " NERDCommenter
 let g:NERDSpaceDelims = 1
