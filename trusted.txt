@@ -138,7 +138,6 @@ otf-fira-mono
 otf-fira-sans
 otf-font-awesome
 otf-nerd-fonts-fira-code
-ovmf
 pacman
 paru-bin
 patch
