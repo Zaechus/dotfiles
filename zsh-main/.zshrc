@@ -54,12 +54,22 @@ qemu-create-img() {
 
 qemu-boot-img() {
     # <name.img>
-    qemu-system-x86_64 -m 2048 -enable-kvm -vga std -smp 3 -net nic -net user -hda $1
+    qemu-system-x86_64 -enable-kvm -cpu host -smp 2 -m 2048 -device VGA,edid=on,xres=1280,yres=720 $1
 }
 
 qemu-boot-iso() {
     # <name.img> <name.iso>
-    qemu-system-x86_64 -m 2048 -boot d -enable-kvm -vga std -smp 3 -net nic -net user -hda $1 -cdrom $2
+    qemu-system-x86_64 -enable-kvm -cpu host -smp 2 -m 2048 -device VGA,edid=on,xres=1280,yres=720 -boot order=d -cdrom $2 $1
+}
+
+qemu-boot-img-efi() {
+    # <name.img>
+    qemu-system-x86_64 -enable-kvm -cpu host -smp 2 -m 2048 -device VGA,edid=on,xres=1280,yres=720 -bios OVMF.fd $1
+}
+
+qemu-boot-iso-efi() {
+    # <name.img> <name.iso>
+    qemu-system-x86_64 -enable-kvm -cpu host -smp 2 -m 2048 -device VGA,edid=on,xres=1280,yres=720 -boot order=d -bios OVMF.fd -cdrom $2 $1
 }
 
 source $HOME/.zsh_aliases

@@ -27,6 +27,7 @@ discord
 dosbox
 dotnet-runtime
 dotnet-sdk
+edk2-ovmf
 efibootmgr
 esysusers
 evince
