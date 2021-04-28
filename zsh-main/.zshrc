@@ -47,32 +47,7 @@ export PATH="$PATH:$GOPATH/bin"
 export WASMER_DIR="$HOME/.wasmer"
 [ -s "$WASMER_DIR/wasmer.sh" ] && source "$WASMER_DIR/wasmer.sh"
 
-qemu-create-img() {
-    # <name.img> <sizeG>
-    qemu-img create -f qcow2 $1 $2
-}
 
-alias qemu-boot="qemu-system-x86_64 -enable-kvm -cpu host -smp 2 -m 4096 -device VGA,edid=on,xres=1280,yres=720"
-
-qemu-boot-img() {
-    # <name.img>
-    qemu-boot $1
-}
-
-qemu-boot-iso() {
-    # <name.img> <name.iso>
-    qemu-boot -boot order=d -cdrom $2 $1
-}
-
-qemu-boot-efi() {
-    # <name.img>
-    qemu-boot -bios OVMF.fd $1
-}
-
-qemu-boot-iso-efi() {
-    # <name.img> <name.iso>
-    qemu-boot -boot order=d -bios OVMF.fd -cdrom $2 $1
-}
 
 source $HOME/.zsh_aliases
 
