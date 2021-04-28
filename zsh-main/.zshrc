@@ -47,8 +47,6 @@ export PATH="$PATH:$GOPATH/bin"
 export WASMER_DIR="$HOME/.wasmer"
 [ -s "$WASMER_DIR/wasmer.sh" ] && source "$WASMER_DIR/wasmer.sh"
 
-
-
 source $HOME/.zsh_aliases
 
 eval "$(starship init zsh)"
