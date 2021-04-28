@@ -114,7 +114,6 @@ noto-fonts-emoji
 npm
 nuget
 nvidia
-nvidia-dkms
 nvidia-settings
 nvidia-utils
 nvidia-utils-openrc
