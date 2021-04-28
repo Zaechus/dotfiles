@@ -17,8 +17,6 @@ cargo install topgrade
 cargo install cargo-update
 cargo install starship
 cargo install bottom
-cargo install wasm-pack
-cargo install just
 
 [ ! -d .zfunc ] && mkdir ~/.zfunc
 source ~/.zprofile
@@ -29,8 +27,6 @@ rustup completions zsh cargo > ~/.zfunc/_cargo
 rustup +nightly component add rust-src
 rustup +nightly component add rust-analyzer-preview
 starship completions zsh > ~/.zfunc/_starship
-
-curl -fsSL https://deno.land/x/install/install.sh | sh
 
 cd ~
 mkdir -p ~/.local/share/nvim/site/pack/plugins/start
