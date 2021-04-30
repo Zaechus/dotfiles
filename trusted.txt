@@ -18,7 +18,6 @@ brightnessctl
 btrfs-progs
 clang
 cmake
-compton-conf
 connman-openrc
 cowsay
 cryptsetup

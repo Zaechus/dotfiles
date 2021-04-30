@@ -3,6 +3,7 @@ colorscheme industry
 set termguicolors
 silent! colorscheme gruvbox
 set cursorline
+set colorcolumn=80
 
 set tabstop=4 shiftwidth=4 softtabstop=4 expandtab
 set autoindent
