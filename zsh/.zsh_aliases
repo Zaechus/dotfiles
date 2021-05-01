@@ -2,6 +2,7 @@ alias angband="angband -mgcu -dpref=.angband/Angband/customize"
 
 alias ip="ip -c"
 alias pacman="pacman --color=always"
+alias rg="rg --color=always"
 
 alias l="exa"
 alias la="exa -a"
