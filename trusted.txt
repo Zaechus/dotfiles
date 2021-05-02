@@ -125,6 +125,7 @@ otf-fira-sans
 otf-font-awesome
 otf-nerd-fonts-fira-code
 pacman
+parted
 paru-bin
 patch
 pcmanfm-qt
