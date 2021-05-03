@@ -151,7 +151,6 @@ sway
 swaylock
 texinfo
 texlive-core
-tk
 tmux
 tokei
 ttf-liberation
