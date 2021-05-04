@@ -94,6 +94,8 @@ libretro-parallel-n64
 libretro-snes9x
 libtool
 libva-mesa-driver
+libva-utils
+libvdpau-va-gl
 links
 linux
 linux-firmware
@@ -158,6 +160,7 @@ tokei
 ttf-liberation
 typescript
 unzip
+vdpauinfo
 vkd3d
 vulkan-intel
 waybar

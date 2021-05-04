@@ -1,3 +1,3 @@
 #!/bin/sh
 
-sudo pacman -S --needed libva-intel-driver libva-utils vulkan-intel lib32-vulkan-intel lib32-libva-intel-driver
+sudo pacman -S --needed libva-intel-driver libva-utils vulkan-intel lib32-vulkan-intel lib32-libva-intel-driver libvdpau-va-gl vdpauinfo libva-utils
