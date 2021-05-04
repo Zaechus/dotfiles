@@ -40,7 +40,7 @@ stow DIRNAME
 ./other.sh
 ./games.sh
 ./wine.sh
-./intel.sh
+./nvidia.sh
 ./setup.sh
 
 ./big.sh
@@ -51,6 +51,5 @@ Add `USERNAME hard nofile 524288` to `/etc/security/limits.conf`.
 
 ### Gaming performance settings
 ```
-xrandr --output <OUTPUT> --mode 1366x768 --rate 60.00
-xset r rate 150 150
+xrandr --output <OUTPUT> --mode XXXXxXXXX --rate XX.XX
 ```

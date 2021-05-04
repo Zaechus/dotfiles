@@ -73,6 +73,7 @@ lib32-libxcomposite
 lib32-libxinerama
 lib32-libxslt
 lib32-mesa
+lib32-mesa-vdpau
 lib32-mpg123
 lib32-ncurses
 lib32-nvidia-utils
@@ -102,6 +103,7 @@ lutris
 m4
 make
 man-db
+mesa-vdpau
 minecraft-launcher
 mpg123
 mpv
