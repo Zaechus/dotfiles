@@ -36,14 +36,14 @@ stow DIRNAME
 
 ## Misc setup
 ```
-./packages.sh
-./other.sh
-./games.sh
-./wine.sh
-./nvidia.sh
-./setup.sh
+./setup/packages.sh
+./setup/other.sh
+./setup/games.sh
+./setup/wine.sh
+./graphics/nvidia.sh
+./setup/setup.sh
 
-./big.sh
+./setup/big.sh
 ```
 
 ### Enable Esync
