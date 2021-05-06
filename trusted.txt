@@ -100,7 +100,6 @@ links
 linux
 linux-firmware
 linux-headers
-lld
 lutris
 m4
 make
