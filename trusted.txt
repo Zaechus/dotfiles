@@ -53,6 +53,7 @@ groff
 grub
 gzip
 i3-gaps
+i3lock
 imv
 intel-media-driver
 intel-ucode
@@ -152,7 +153,6 @@ rofi
 rogue
 sed
 signal-desktop
-slock
 stow
 sudo
 sway
