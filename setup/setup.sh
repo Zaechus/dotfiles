@@ -32,3 +32,5 @@ sudo chown bacchus:bacchus /home/bacchus/.zshrc
 sudo cp /etc/X11/xinit/xinitrc /home/thor/.xinitrc
 sudo chown thor:thor /home/thor/.xinitrc
 sudo nvim /home/thor/.xinitrc
+
+sudo bash -c "sudo printf 'blacklist pcspkr\n' > /etc/modprobe.d/blacklist"
