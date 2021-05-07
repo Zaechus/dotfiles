@@ -123,6 +123,7 @@ nvidia
 nvidia-settings
 nvidia-utils
 nvidia-utils-openrc
+nvtop
 ocl-icd
 openrc
 openrc-zsh-completions
