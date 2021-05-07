@@ -165,6 +165,7 @@ unzip
 vdpauinfo
 vkd3d
 vulkan-intel
+vulkan-radeon
 waybar
 wget
 which
