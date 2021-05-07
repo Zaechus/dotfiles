@@ -71,6 +71,7 @@ lib32-libpng
 lib32-libpulse
 lib32-libva
 lib32-libva-mesa-driver
+lib32-libva-vdpau-driver
 lib32-libxcomposite
 lib32-libxinerama
 lib32-libxslt
