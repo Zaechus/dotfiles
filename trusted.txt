@@ -152,6 +152,7 @@ rofi
 rogue
 sed
 signal-desktop
+slock
 stow
 sudo
 sway
