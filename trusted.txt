@@ -56,7 +56,6 @@ i3-gaps
 imv
 intel-media-driver
 intel-ucode
-j4-dmenu-desktop
 lib32-alsa-lib
 lib32-alsa-plugins
 lib32-giflib
@@ -148,6 +147,7 @@ qemu
 refind
 retroarch
 ripgrep
+rofi
 rogue
 sed
 signal-desktop
