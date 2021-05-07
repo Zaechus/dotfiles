@@ -146,7 +146,6 @@ python
 python-pip
 python-pynvim
 qemu
-refind
 retroarch
 ripgrep
 rofi
