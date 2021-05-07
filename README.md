@@ -48,8 +48,3 @@ stow DIRNAME
 
 ### Enable Esync
 Add `USERNAME hard nofile 524288` to `/etc/security/limits.conf`.
-
-### Gaming performance settings
-```
-xrandr --output <OUTPUT> --mode XXXXxXXXX --rate XX.XX
-```
