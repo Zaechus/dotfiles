@@ -29,6 +29,7 @@ dotnet-sdk
 edk2-ovmf
 efibootmgr
 esysusers
+etmpfiles
 evince
 exa
 fakeroot
@@ -49,6 +50,7 @@ go-tools
 grep
 grim
 groff
+grub
 gzip
 i3-gaps
 imv
@@ -95,7 +97,9 @@ libretro-snes9x
 libtool
 libva-mesa-driver
 libva-utils
+libva-vdpau-driver
 libvdpau-va-gl
+libxslt
 links
 linux
 linux-firmware
@@ -120,7 +124,6 @@ nvidia-settings
 nvidia-utils
 nvidia-utils-openrc
 ocl-icd
-openbox
 openrc
 openrc-zsh-completions
 otf-fira-mono
@@ -145,7 +148,6 @@ refind
 retroarch
 ripgrep
 rogue
-screengrab
 sed
 signal-desktop
 stow
