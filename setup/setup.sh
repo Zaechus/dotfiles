@@ -9,6 +9,8 @@ cd ~/Images
 mkdir Disk
 cd ~
 
+sudo nvim /etc/elogind/logind.conf
+
 echo "bacchus"
 sudo useradd -m bacchus && sudo passwd bacchus
 
