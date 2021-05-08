@@ -119,6 +119,7 @@ neovim
 noto-fonts
 noto-fonts-emoji
 npm
+ntp
 nuget
 nvidia
 nvidia-prime
