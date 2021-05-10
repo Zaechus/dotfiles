@@ -130,6 +130,7 @@ nvtop
 ocl-icd
 openrc
 openrc-zsh-completions
+opusfile
 otf-fira-mono
 otf-fira-sans
 otf-font-awesome
