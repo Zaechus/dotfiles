@@ -14,6 +14,8 @@ bindkey -v
 
 source $HOME/.zsh_aliases
 
+alias rofidrun="rofi -modi drun,run -show drun"
+
 alias mvreplay="mv ~/Downloads/* ~/Games/starcraft-ii/drive_c/users/$USERNAME/My\ Documents/StarCraft\ II/Accounts/302557793/1-S2-1-5375338/Replays/Multiplayer/"
 alias sc2cfg="xset r rate 150 150"
 alias unsc2="xset r rate 200 60"
