@@ -9,7 +9,7 @@ flags:UNIQUE | QUESTOR | MALE | FEMALE | GROUP_AI | FORCE_DEPTH | SPIRIT
 flags:INVISIBLE | COLD_BLOOD | CLEAR_WEB
 
 name:boil-covered wretch
-counts:1:0:1:0:3:0:0
+counts:2:0:1:0:4:0:0
 flags:UNIQUE | QUESTOR | MALE | FEMALE | GROUP_AI | FORCE_DEPTH | SPIRIT
 flags:INVISIBLE | COLD_BLOOD | CLEAR_WEB
 
@@ -23,13 +23,18 @@ counts:4:0:1:0:4:0:0
 flags:UNIQUE | QUESTOR | MALE | FEMALE | GROUP_AI | FORCE_DEPTH | SPIRIT
 flags:INVISIBLE | COLD_BLOOD | CLEAR_WEB
 
+name:mangy-looking leper
+counts:3:0:0:0:1:0:0
+flags:UNIQUE | QUESTOR | MALE | FEMALE | GROUP_AI | SPIRIT | INVISIBLE
+flags:COLD_BLOOD | CLEAR_WEB
+
 name:squint-eyed rogue
 counts:3:0:0:0:0:0:0
 flags:UNIQUE | QUESTOR | MALE | FEMALE | GROUP_AI | SPIRIT | INVISIBLE
 flags:COLD_BLOOD | CLEAR_WEB
 
 name:singing, happy drunk
-counts:6:0:1:0:0:0:0
+counts:9:0:1:0:0:0:0
 blow:BEG:NONE:0+0d0M0:2:0
 flags:UNIQUE | QUESTOR | MALE | FEMALE | GROUP_AI | FORCE_DEPTH | MULTIPLY
 flags:NEVER_BLOW | NEVER_MOVE | RAND_50 | SPIRIT | DROP_GOOD | DROP_GREAT
