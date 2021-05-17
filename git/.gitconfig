@@ -3,3 +3,5 @@
 	name = Maxwell Anderson
 [pull]
 	rebase = false
+[init]
+	defaultBranch = master
