@@ -18,6 +18,8 @@ cargo install cargo-update
 cargo install starship
 cargo install bottom
 
+dotnet tool install -g dotnet-format
+
 [ ! -d .zfunc ] && mkdir ~/.zfunc
 source ~/.zprofile
 rustup component add llvm-tools-preview rls rust-analysis rust-src
