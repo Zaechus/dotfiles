@@ -20,4 +20,6 @@ alias mvreplay="mv ~/Downloads/*.SC2Replay ~/Games/starcraft-ii/drive_c/users/$U
 alias sc2cfg="xset r rate 150 150"
 alias unsc2="xset r rate 200 60"
 
+alias neofetch="neofetch --disable title"
+
 PS1="%# "
