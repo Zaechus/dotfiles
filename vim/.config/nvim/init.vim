@@ -25,7 +25,7 @@ map <F6> :sp +term <CR> :resize 10 <CR> i
 set splitbelow
 
 " Clear search
-map <Leader>c :let @/ = "" <CR>
+map <Leader>l :let @/ = "" <CR>
 
 " Alt+<arrow> to navigate windows in any mode
 map <A-Left> <C-w>h
