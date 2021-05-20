@@ -1,4 +1,4 @@
-alias angband="angband -mgcu -duser=/var/games/.angband/Angband/"
+alias angband="angband -mgcu -dpref=.angband/Angband/customize"
 
 alias ip="ip -c"
 alias pacman="pacman --color=always"
