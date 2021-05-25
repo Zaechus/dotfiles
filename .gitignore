@@ -1,7 +1,6 @@
 # Packages
 paru-bin
-*.txt
-!trusted.txt
+incoming.txt
 
 # Vim
 *.netrwhist

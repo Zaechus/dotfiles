@@ -1,0 +1,304 @@
+  [Angband 4.2.1 Character Dump]
+
+ Name   Zaechus I    Age            106          Self  RB  CB  EB   Best
+ Race   High-Elf     Height        6'3"   STR:     17  +1  +0  +0     18
+ Class  Ranger       Weight    11st 3lb   INT:     10  +3  +0  +3     16
+ Title  Courser      Turns used:          WIS:     10  -1  +2  +0     11
+ HP     155/155      Game        189501   DEX:     18  +3  +1  +0  18/40
+ SP     13/13        Standard     19003   CON:     10  +1  -1  +0     10
+                     Resting       4364
+
+ Level                 18    Armor      [26,+11]    Saving Throw     71%
+ Cur Exp             4570                           Stealth         Good
+ Max Exp             4570    Melee        1d5,+6    Disarm - phys.   75%
+ Adv Exp             5220    To-hit       47,+10    Disarm - magic   54%
+                             Blows      2.0/turn    Magic Devices     68
+ Gold                1906                           Searching        52%
+ Burden          113.6 lb    Shoot to-dam     +5    Infravision    40 ft
+ Overweight       -6.3 lb    To-hit        59,+5    Speed         Normal
+ Max Depth     850' (L17)    Shots      1.6/turn
+
+ Just a guy who is a ranger for fun.
+
+
+
+Resistances         Abilities
+ Acid:....+..+..... pFear:.......?.....
+ Elec:......+...... pBlnd:.......?.....
+ Fire:............. pConf:.......?.....
+ Cold:.......?..... pStun:.......?.....
+ Pois:.......?..... HLife:.......?.....
+Light:............+ Regen:.............
+ Dark:.......?.....   ESP:.......?.....
+Sound:.......?..... S.Inv:.......+....+
+Shard:.......?..... FrAct:..+....+.....
+Nexus:............. Feath:.............
+Nethr:.......?..... S.Dig:.............
+Chaos:............. TrpIm:.......?.....
+Disen:.......?..... Bless:.......?.....
+
+Hindrances          Modifiers
+ImpHP:............. Stea.:.............
+ImpSP:............. Sear.:.............
+ Fear:.......?..... Infra:............+
+Aggrv:............. Tunn.:.............
+NoTel:.......?..... Speed:.............
+DrExp:............. Blows:.............
+Stick:.......?..... Shots:............+
+Fragl:.......?..... Might:.............
+                    Light:.............
+                    D.Red:.............
+                    Moves:.............
+
+
+  [Character Equipment]
+
+a) a Main Gauche (1d5) (+6,+4)
+     Dropped by an ogre at 850 feet (level 17)
+     
+     Combat info:
+     2.0 blows/round.
+     With +1 STR and +0 DEX you would get 2.3 blows
+     With +0 STR and +2 DEX you would get 2.3 blows
+     Average damage/round: 19.4.
+     
+b) a Long Bow (x3) (+1,+5)
+     Bought from a store
+     
+c) a Ring of Free Action
+     Bought from a store
+     
+     Prevents paralysis.  
+     
+d) a Ring of Intelligence <+3>
+     Bought from a store
+     
+     +3 intelligence.
+     Sustains intelligence.
+     
+e) an Amulet of Resist Acid
+     Bought from a store
+     
+     Provides resistance to Acid.
+     
+f) a Lantern (4521 turns)
+     Found lying on the floor at 850 feet (level 17)
+     
+     Cannot be harmed by Fire.
+     Intensity 3 light.
+     
+g) Soft Leather Armour of Resist Lightning [8,-2]
+     Dropped by Farmer Maggot in town
+     
+     Provides resistance to Lightning.
+     
+h) the Cloak of Thorongil [1,+10] {??}
+     Dropped by Boldor, King of the Yeeks at 850 feet (level 17)
+     
+     You do not know the full extent of this item's powers.
+     Provides resistance to Acid.
+     Cannot be harmed by Acid, Fire.
+     Grants the ability to see invisible things.  Prevents paralysis.  
+     
+i) a Small Metal Shield [5,+1]
+     Bought from a store
+     
+j) an Iron Helm [7,+0]
+     Bought from a store
+     
+k) a Set of Leather Gloves [1,+0]
+     Bought from a store
+     
+l) a Pair of Iron Shod Boots [4,+0]
+     Cannot be harmed by Fire.
+     
+
+
+
+
+  [Character Inventory]
+
+a) 2 Books of Nature Magics [Lesser Charms]
+     
+     You can read this book.
+     
+b) 3 Rations of Food
+c) 2 Flasks of oil
+d) 3 Potions of Cure Light Wounds
+e) 4 Scrolls of Phase Door
+f) 4 Scrolls of Word of Recall
+g) a Rod of Curing
+h) a Rod of Illumination
+i) a Wand of Slow Monster (5 charges)
+j) a Wand of Stun Monster (5 charges)
+
+
+
+
+  [Character Quiver]
+
+0) 40 Arrows (1d4) (+0,+0)
+     Combat info:
+     When fired, hits targets up to 120 feet away.
+     Average damage/round: 36.3.
+     35% chance of breaking upon contact.
+     
+1) 40 Arrows (1d4) (+0,+0)
+     Combat info:
+     When fired, hits targets up to 120 feet away.
+     Average damage/round: 36.3.
+     35% chance of breaking upon contact.
+     
+2) 40 Arrows (1d4) (+0,+0)
+     Combat info:
+     When fired, hits targets up to 120 feet away.
+     Average damage/round: 36.3.
+     35% chance of breaking upon contact.
+     
+3) 40 Arrows (1d4) (+0,+0)
+     Combat info:
+     When fired, hits targets up to 120 feet away.
+     Average damage/round: 36.3.
+     35% chance of breaking upon contact.
+     
+4) 40 Arrows (1d4) (+0,+0)
+     Combat info:
+     When fired, hits targets up to 120 feet away.
+     Average damage/round: 36.3.
+     35% chance of breaking upon contact.
+     
+5) 40 Arrows (1d4) (+0,+0)
+     Combat info:
+     When fired, hits targets up to 120 feet away.
+     Average damage/round: 36.3.
+     35% chance of breaking upon contact.
+     
+6) 40 Arrows (1d4) (+0,+0)
+     Combat info:
+     When fired, hits targets up to 120 feet away.
+     Average damage/round: 36.3.
+     35% chance of breaking upon contact.
+     
+
+
+  [Home Inventory]
+
+a) 11 Rations of Food
+b) a Sip of Miruvor
+c) a Flask of oil
+d) 4 Potions of Speed
+e) 2 Potions of Slime Mold Juice
+f) a Scroll of Magic Mapping
+g) 4 Scrolls of Treasure Detection
+h) 2 Scrolls of Deep Descent
+i) a Scroll of Blessing
+j) a Wand of Slow Monster (5 charges)
+k) 2 Wands of Stun Monster (8 charges)
+l) a Staff of Curing (3 charges)
+m) a Staff of Light (15 charges)
+n) a Ring of Searching <+4>
+     Found lying on the floor at 850 feet (level 17)
+     
+     +4 searching skill.
+     
+o) a Ring of Searching <+1>
+     Dropped by a black naga at 400 feet (level 8)
+     
+     +1 searching skill.
+     
+p) an Amulet of Slow Digestion
+     Slows your metabolism.  
+     
+q) a Short Bow (x2) (+0,+0)
+     An inheritance from your family
+     
+r) 40 Arrows (1d4) (+0,+0)
+     Combat info:
+     When fired, hits targets up to 120 feet away.
+     Average damage/round: 36.3.
+     35% chance of breaking upon contact.
+     
+s) 34 Arrows of Flame (1d5) (+6,+6)
+     Branded with fire.
+     Cannot be harmed by Fire.
+     
+     Combat info:
+     When fired, hits targets up to 120 feet away.
+     Average damage/round: 135.6 vs creatures not resistant to fire and
+     67.8 vs. others.
+     35% chance of breaking upon contact.
+     
+
+
+[Player history]
+      Turn   Depth  Note
+         0      0'  Began the quest to destroy Morgoth.
+       149      0'  Killed Farmer Maggot
+       623     50'  Reached level 2
+       743    300'  Reached level 3
+      1174    300'  Reached level 4
+      1404    300'  Reached level 5
+      1902    350'  Reached level 6
+      2135    350'  Reached level 7
+      2957    400'  Reached level 8
+      3817    400'  Reached level 9
+      5603    400'  Reached level 10
+      6099    450'  Reached level 11
+      6690    500'  Reached level 12
+     11017    600'  Reached level 13
+     11670    850'  Reached level 14
+     11973    850'  Reached level 15
+     12036    850'  Killed Wormtongue, Agent of Saruman
+     13182    850'  Reached level 16
+     15652    850'  Reached level 17
+     16254    850'  Killed Orfax, Son of Boldor
+     17591    850'  Reached level 18
+     17596    850'  Killed Grishnákh, the Hill Orc
+     18530    850'  Killed Boldor, King of the Yeeks
+     18548    850'  Found the Cloak of Thorongil
+
+
+  [Options]
+
+  [User interface]
+
+Use the roguelike command keyset             : no  (rogue_like_commands)
+Use sound                                    : no  (use_sound)
+Show damage player deals to monsters         : no  (show_damage)
+Use old target by default                    : no  (use_old_target)
+Always pickup items                          : no  (pickup_always)
+Always pickup items matching inventory       : yes (pickup_inven)
+Show flavors in object descriptions          : no  (show_flavors)
+Highlight target with cursor                 : yes (show_target)
+Highlight player with cursor between turns   : no  (highlight_player)
+Disturb whenever viewable monster moves      : yes (disturb_near)
+Show walls as solid blocks                   : no  (solid_walls)
+Show walls with shaded background            : no  (hybrid_walls)
+Color: Illuminate torchlight in yellow       : no  (view_yellow_light)
+Color: Shimmer multi-colored things          : no  (animate_flicker)
+Center map continuously                      : no  (center_player)
+Color: Show unique monsters in purple        : no  (purple_uniques)
+Automatically clear '-more-' prompts         : no  (auto_more)
+Color: Player color indicates % hit points   : yes (hp_changes_color)
+Allow mouse clicks to move the player        : yes (mouse_movement)
+Notify on object recharge                    : no  (notify_recharge)
+Show effective speed as multiplier           : no  (effective_speed)
+
+  [Birth]
+
+Generate a new, random artifact set          : no  (birth_randarts)
+Generate connected stairs                    : yes (birth_connect_stairs)
+Force player descent (never make up stairs)  : no  (birth_force_descend)
+Word of Recall has no effect                 : no  (birth_no_recall)
+Restrict creation of artifacts               : no  (birth_no_artifacts)
+Stack objects on the floor                   : yes (birth_stacking)
+Lose artifacts when leaving level            : no  (birth_lose_arts)
+Show level feelings                          : yes (birth_feelings)
+Increase gold drops but disable selling      : yes (birth_no_selling)
+Start with a kit of useful gear              : yes (birth_start_kit)
+Monsters learn from their mistakes           : yes (birth_ai_learn)
+Know all runes on birth                      : no  (birth_know_runes)
+Know all flavors on birth                    : no  (birth_know_flavors)
+Persistent levels (experimental)             : no  (birth_levels_persist)
+To-damage is a percentage of dice (experimental): no  (birth_percent_damage)
+
