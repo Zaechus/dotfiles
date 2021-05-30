@@ -129,6 +129,7 @@ otf-fira-sans
 otf-font-awesome
 otf-nerd-fonts-fira-code
 pacman
+pacman-contrib
 parted
 paru-bin
 patch
@@ -143,10 +144,12 @@ python
 python-pip
 python-pynvim
 qemu
+reflector
 retroarch
 ripgrep
 rofi
 rogue
+rsync
 sed
 signal-desktop
 stow
