@@ -30,7 +30,6 @@ edk2-ovmf
 efibootmgr
 esysusers
 etmpfiles
-evince
 exa
 fakeroot
 fd
