@@ -3,6 +3,7 @@ alacritty
 amd-ucode
 angband
 aria2
+artix-archlinux-support
 artix-backgrounds
 autoconf
 automake
