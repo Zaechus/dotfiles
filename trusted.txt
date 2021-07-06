@@ -136,7 +136,6 @@ patch
 pcmanfm-qt
 pkgconf
 prettier
-protonvpn-cli-ng-git
 pulseaudio
 pulseaudio-alsa
 pulseaudio-bluetooth
