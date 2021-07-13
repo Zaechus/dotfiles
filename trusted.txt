@@ -136,6 +136,7 @@ patch
 pcmanfm-qt
 pkgconf
 prettier
+protonvpn-cli-ng
 pulseaudio
 pulseaudio-alsa
 pulseaudio-bluetooth
@@ -151,6 +152,7 @@ rogue
 rsync
 sed
 signal-desktop
+steam
 stow
 sudo
 sway
