@@ -27,6 +27,7 @@ discord
 dosbox
 dotnet-runtime
 dotnet-sdk
+dwarffortress
 edk2-ovmf
 efibootmgr
 esysusers
