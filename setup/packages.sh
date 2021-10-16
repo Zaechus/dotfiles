@@ -6,5 +6,7 @@ sudo rc-update add backlight
 
 sudo nvim /etc/connman/main.conf
 
+sudo nvim /etc/rc.conf
+
 sudo ntpd -qg
 sudo hwclock --systohc
