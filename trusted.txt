@@ -146,7 +146,6 @@ python
 python-pip
 python-pynvim
 qemu
-reflector
 retroarch
 ripgrep
 rofi
@@ -171,7 +170,6 @@ vkd3d
 vulkan-intel
 vulkan-radeon
 waybar
-wget
 which
 wine-gecko
 wine-mono
