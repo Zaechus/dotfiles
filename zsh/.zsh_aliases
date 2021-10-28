@@ -18,6 +18,7 @@ alias batcap="bat /sys/class/power_supply/BAT0/capacity -pp"
 
 alias vim="nvim -u NORC --noplugin"
 alias sway="cd ~ && WLR_DRM_DEVICES=/dev/dri/card0 sway --my-next-gpu-wont-be-nvidia"
+alias topgrade="topgrade --disable gnome_shell_extensions"
 
 qemu-create-img() {
     # <name.img> <sizeG>
