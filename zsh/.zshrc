@@ -32,11 +32,6 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 
 export EDITOR=nvim
 
-export MOZ_ENABLE_WAYLAND=1
-export SDL_VIDEODRIVER=wayland
-export QT_QPA_PLATFORM=wayland
-export QT_QPA_PLATFORMTHEME=qt5ct
-
 export DENO_INSTALL="$HOME/.deno"
 export PATH="$PATH:$DENO_INSTALL/bin"
 
