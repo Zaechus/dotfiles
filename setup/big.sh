@@ -1,6 +1,6 @@
 #!/bin/sh
 
-sudo pacman -S --needed 0ad libreoffice-fresh signal-desktop gimp
+sudo pacman -S --needed 0ad libreoffice-fresh signal-desktop gimp steam
 
 cargo install wasm-pack
 cargo install just
