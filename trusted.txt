@@ -82,7 +82,6 @@ lib32-mesa
 lib32-mesa-vdpau
 lib32-mpg123
 lib32-ncurses
-lib32-nvidia-utils
 lib32-ocl-icd
 lib32-openal
 lib32-sqlite
@@ -118,12 +117,6 @@ noto-fonts
 noto-fonts-emoji
 npm
 nuget
-nvidia
-nvidia-prime
-nvidia-settings
-nvidia-utils
-nvidia-utils-openrc
-nvtop
 ocl-icd
 openrc
 openrc-zsh-completions
@@ -139,7 +132,6 @@ patch
 pcmanfm-qt
 pkgconf
 prettier
-protonvpn-cli-ng
 pulseaudio
 pulseaudio-alsa
 pulseaudio-bluetooth
