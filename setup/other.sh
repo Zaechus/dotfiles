@@ -14,11 +14,9 @@ then
 fi
 
 cargo install topgrade
-cargo install cargo-update
 cargo install starship
 cargo install bottom
 
-dotnet tool install -g dotnet-format
 
 [ ! -d .zfunc ] && mkdir ~/.zfunc
 source ~/.zprofile

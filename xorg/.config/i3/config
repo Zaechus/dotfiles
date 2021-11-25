@@ -176,7 +176,7 @@ bindsym $mod+r mode "resize"
 
 bindsym $mod+Shift+s exec i3lock -c 222222
 bindcode $mod+40 exec "rofi -modi drun,run -show drun"
-bindsym $mod+Shift+d exec "prime-run rofi -modi drun,run -show drun"
+#bindsym $mod+Shift+d exec "prime-run rofi -modi drun,run -show drun"
 bindsym $mod+Shift+g exec "lutris"
 bar {
    position top

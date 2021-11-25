@@ -207,6 +207,9 @@ bindsym $mod+r mode "resize"
 #
 bindsym $mod+Shift+s exec 'swaylock -c 000000'
 
+#
+# It's not there yet
+#
 xwayland disable
 
 #

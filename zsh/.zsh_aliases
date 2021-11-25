@@ -23,7 +23,8 @@ alias xunsc2="xset r rate 200 60"
 alias mvreplay="mv ~/Downloads/*.SC2Replay ~/Games/starcraft-ii/drive_c/users/$USERNAME/My\ Documents/StarCraft\ II/Accounts/302557793/1-S2-1-5375338/Replays/Multiplayer/"
 
 alias vim="nvim -u NORC --noplugin"
-alias sway="cd ~ && SDL_VIDEODRIVER=wayland QT_QPA_PLATFORM=wayland QT_QPA_PLATFORMTHEME=qt5ct MOZ_ENABLE_WAYLAND=1 WLR_DRM_DEVICES=/dev/dri/card0 sway --my-next-gpu-wont-be-nvidia"
+alias sway="cd ~ && SDL_VIDEODRIVER=wayland QT_QPA_PLATFORM=wayland QT_QPA_PLATFORMTHEME=qt5ct MOZ_ENABLE_WAYLAND=1 sway"
+#alias sway="cd ~ && SDL_VIDEODRIVER=wayland QT_QPA_PLATFORM=wayland QT_QPA_PLATFORMTHEME=qt5ct MOZ_ENABLE_WAYLAND=1 WLR_DRM_DEVICES=/dev/dri/card0 sway --my-next-gpu-wont-be-nvidia"
 alias topgrade="topgrade --disable gnome_shell_extensions"
 
 qemu-create-img() {

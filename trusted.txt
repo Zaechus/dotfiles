@@ -15,7 +15,6 @@ binutils
 bison
 bluez-openrc
 bluez-utils
-bottom
 brightnessctl
 btrfs-progs
 cataclysm-dda

@@ -6,3 +6,5 @@ cargo install wasm-pack
 cargo install just
 
 curl -fsSL https://deno.land/x/install/install.sh | sh
+
+dotnet tool install -g dotnet-format

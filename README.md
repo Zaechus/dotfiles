@@ -1,6 +1,6 @@
 # My dotfiles
 
-Using GNU `stow` to backup my dotfiles
+Using scripts and GNU `stow` to backup my dotfiles
 
 ## Usage
 ```
@@ -19,8 +19,7 @@ $HOME/.dotfiles
 │  └── .gitconfig
 ├── wayland
 │  └── .config
-│     ├── sway
-│     └── waybar
+│     └── sway
 └── zsh
    ├── .zprofile
    └── .zshrc
@@ -40,7 +39,7 @@ stow DIRNAME
 ./setup/other.sh
 ./setup/games.sh
 ./setup/wine.sh
-./graphics/nvidia.sh
+./graphics/amd.sh
 ./setup/setup.sh
 
 ./setup/big.sh
