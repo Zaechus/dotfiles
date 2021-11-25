@@ -17,7 +17,6 @@ cargo install topgrade
 cargo install starship
 cargo install bottom
 
-
 [ ! -d .zfunc ] && mkdir ~/.zfunc
 source ~/.zprofile
 rustup component add llvm-tools-preview rls rust-analysis rust-src
@@ -37,10 +36,6 @@ git clone https://github.com/preservim/nerdcommenter.git ~/.local/share/nvim/sit
 git clone https://github.com/airblade/vim-gitgutter.git ~/.local/share/nvim/site/pack/plugins/start/vim-gitgutter
 git clone https://github.com/itchyny/lightline.vim ~/.local/share/nvim/site/pack/plugins/start/lightline
 git clone https://github.com/morhetz/gruvbox.git ~/.local/share/nvim/site/pack/plugins/start/gruvbox
-
-nvim ~/.zprofile
-
-[ -f ~/.profile ] && rm ~/.profile
 
 sudo pacman -S pulseaudio-bluetooth bluez-utils bluez-openrc
 sudo rc-update add bluetoothd
