@@ -31,6 +31,7 @@ dotnet-sdk
 dwarffortress
 edk2-ovmf
 efibootmgr
+elogind-openrc
 esysusers
 etmpfiles
 exa
