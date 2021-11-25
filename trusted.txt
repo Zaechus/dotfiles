@@ -53,6 +53,7 @@ grep
 grim
 groff
 grub
+gst-plugins-base-libs
 gzip
 i3-gaps
 i3lock
