@@ -10,7 +10,7 @@ then
     cd paru-bin
     makepkg -si
     cd ..
-    paru -Syu --needed otf-nerd-fonts-fira-code zork1 zork2 zork3 ncpamixer
+    paru -Syu --needed otf-nerd-fonts-fira-code zork1 zork2 zork3 ncpamixer librewolf-bin
 fi
 
 cargo install topgrade

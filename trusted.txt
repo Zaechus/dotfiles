@@ -39,7 +39,6 @@ fakeroot
 fd
 file
 findutils
-firefox-developer-edition
 flex
 gawk
 gcc
@@ -93,6 +92,7 @@ lib32-vulkan-icd-loader
 lib32-vulkan-intel
 lib32-vulkan-radeon
 libreoffice-fresh
+librewolf-bin
 libtool
 libva-mesa-driver
 libva-utils
