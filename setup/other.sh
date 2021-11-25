@@ -14,6 +14,7 @@ then
 fi
 
 cargo install topgrade
+cargo install cargo-update
 cargo install starship
 cargo install bottom
 
