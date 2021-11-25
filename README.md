@@ -41,8 +41,6 @@ stow DIRNAME
 ./setup/wine.sh
 ./graphics/amd.sh
 ./setup/setup.sh
-
-./setup/big.sh
 ```
 
 ### Enable Esync
