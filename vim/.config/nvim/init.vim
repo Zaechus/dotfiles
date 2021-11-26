@@ -28,22 +28,22 @@ set splitbelow
 map <Leader>l :let @/ = "" <CR>
 
 " Alt+<arrow> to navigate windows in any mode
-map <A-Left> <C-w>h
-map <A-Down> <C-w>j
-map <A-Up> <C-w>k
-map <A-Right> <C-w>l
-tnoremap <A-Left> <C-\><C-N><C-w>h
-tnoremap <A-Down> <C-\><C-N><C-w>j
-tnoremap <A-Up> <C-\><C-N><C-w>k
-tnoremap <A-Right> <C-\><C-N><C-w>l
-inoremap <A-Left> <C-\><C-N><C-w>h
-inoremap <A-Down> <C-\><C-N><C-w>j
-inoremap <A-Up> <C-\><C-N><C-w>k
-inoremap <A-Right> <C-\><C-N><C-w>l
-nnoremap <A-Left> <C-w>h
-nnoremap <A-Down> <C-w>j
-nnoremap <A-Up> <C-w>k
-nnoremap <A-Right> <C-w>l
+map <C-A-Left> <C-w>h
+map <C-A-Down> <C-w>j
+map <C-A-Up> <C-w>k
+map <C-A-Right> <C-w>l
+tnoremap <C-A-Left> <C-\><C-N><C-w>h
+tnoremap <C-A-Down> <C-\><C-N><C-w>j
+tnoremap <C-A-Up> <C-\><C-N><C-w>k
+tnoremap <C-A-Right> <C-\><C-N><C-w>l
+inoremap <C-A-Left> <C-\><C-N><C-w>h
+inoremap <C-A-Down> <C-\><C-N><C-w>j
+inoremap <C-A-Up> <C-\><C-N><C-w>k
+inoremap <C-A-Right> <C-\><C-N><C-w>l
+nnoremap <C-A-Left> <C-w>h
+nnoremap <C-A-Down> <C-w>j
+nnoremap <C-A-Up> <C-w>k
+nnoremap <C-A-Right> <C-w>l
 
 " Alt+Shift+<arrow> to resize split
 map <A-S-Left> <C-w><
