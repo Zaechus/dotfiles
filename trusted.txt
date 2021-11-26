@@ -74,7 +74,6 @@ lib32-libpng
 lib32-libpulse
 lib32-libva
 lib32-libva-mesa-driver
-lib32-libva-vdpau-driver
 lib32-libxcomposite
 lib32-libxinerama
 lib32-libxslt
@@ -95,8 +94,6 @@ librewolf-bin
 libtool
 libva-mesa-driver
 libva-utils
-libva-vdpau-driver
-libvdpau-va-gl
 libxslt
 links
 linux
@@ -139,6 +136,7 @@ python
 python-pip
 python-pynvim
 qemu
+radeontop
 retroarch
 ripgrep
 rofi
