@@ -181,6 +181,16 @@ font Fira Code Nerd Font 10
 # Status Bar:
 #
 # Read `man 5 sway-bar` for more information about this section.
-exec waybar
+bar {
+    position top
+
+    status_command while date +'%Y-%m-%d %l:%M:%S '; do sleep 1; done
+
+    colors {
+        statusline #ffffff
+        background #323232
+        inactive_workspace #32323200 #32323200 #5c5c5c
+    }
+}
 
 include /etc/sway/config.d/*

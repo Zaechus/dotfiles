@@ -1,4 +1,4 @@
 #!/bin/sh
 
 pacman -Qqe > incoming.txt
-diff trusted.txt incoming.txt | bat
+diff -I "intel" trusted.txt incoming.txt | bat

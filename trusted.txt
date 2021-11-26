@@ -126,9 +126,7 @@ pacman-contrib
 parted
 paru-bin
 patch
-pcmanfm-qt
 pkgconf
-prettier
 pulseaudio
 pulseaudio-alsa
 pulseaudio-bluetooth
@@ -141,7 +139,6 @@ retroarch
 ripgrep
 rofi
 rogue
-rsync
 sed
 signal-desktop
 steam
@@ -161,7 +158,6 @@ vdpauinfo
 vkd3d
 vulkan-intel
 vulkan-radeon
-waybar
 which
 wine-gecko
 wine-mono
