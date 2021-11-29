@@ -41,10 +41,10 @@ qemu-boot-iso() {
 
 qemu-boot-efi() {
     # <name.img>
-    qemu-boot -bios /usr/share/ovmf/x64/OVMF.fd $1
+    qemu-boot -bios ./OVMF.fd $1
 }
 
 qemu-boot-iso-efi() {
     # <name.img> <name.iso>
-    qemu-boot -boot order=d -bios /usr/share/ovmf/x64/OVMF.fd -cdrom $2 $1
+    qemu-boot -boot order=d -bios ./OVMF.fd -cdrom $2 $1
 }
