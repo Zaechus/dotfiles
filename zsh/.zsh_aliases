@@ -32,7 +32,7 @@ qemu-create-img() {
     qemu-img create -f qcow2 $1 $2
 }
 
-alias qemu-boot="qemu-system-x86_64 -enable-kvm -cpu host -smp 4 -m 8192 -device VGA,edid=on,xres=1280,yres=720"
+alias qemu-boot="qemu-system-x86_64 -enable-kvm -cpu host -smp 4 -m 8192 -vga std"
 
 qemu-boot-img() {
     # <name.img>
