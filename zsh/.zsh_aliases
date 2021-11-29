@@ -34,11 +34,6 @@ qemu-create-img() {
 
 alias qemu-boot="qemu-system-x86_64 -enable-kvm -cpu host -smp 4 -m 8192 -vga std"
 
-qemu-boot-img() {
-    # <name.img>
-    qemu-boot $1
-}
-
 qemu-boot-iso() {
     # <name.img> <name.iso>
     qemu-boot -boot order=d -cdrom $2 $1
