@@ -148,7 +148,6 @@ sway
 swaylock
 texinfo
 texlive-core
-tmux
 tokei
 ttf-liberation
 typescript
