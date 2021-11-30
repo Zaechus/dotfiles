@@ -138,6 +138,7 @@ retroarch
 ripgrep
 rofi
 rogue
+screen
 sed
 signal-desktop
 steam
