@@ -44,6 +44,7 @@ gcc
 gettext
 gimp
 git
+gnome-keyring
 gnuchess
 gnugo
 go
