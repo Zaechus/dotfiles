@@ -1,4 +1,3 @@
-0ad
 alacritty
 alsa-utils
 amd-ucode
@@ -13,10 +12,7 @@ bat
 bemenu
 binutils
 bison
-bluez-openrc
-bluez-utils
 bottom
-brightnessctl
 btrfs-progs
 cataclysm-dda
 clang
@@ -24,12 +20,12 @@ cmake
 connman-openrc
 cowsay
 cryptsetup
+cryptsetup-openrc
 dhcpcd
 discord
 dmenu
 dosbox
-dotnet-runtime
-dotnet-sdk
+dosfstools
 dwarffortress
 edk2-ovmf
 efibootmgr
@@ -50,8 +46,6 @@ git
 gnome-keyring
 gnuchess
 gnugo
-go
-go-tools
 grep
 grim
 groff
@@ -137,14 +131,11 @@ rogue
 screen
 scrot
 sed
-signal-desktop
 steam
 stone-soup
 sudo
 sway
 swaylock
-texinfo
-texlive-core
 tokei
 ttf-fira-code
 ttf-liberation
@@ -159,6 +150,7 @@ wine-mono
 wine-staging
 wl-clipboard
 wpa_supplicant
+x86_energy_perf_policy
 xf86-video-amdgpu
 xorg-server
 xorg-xinit
