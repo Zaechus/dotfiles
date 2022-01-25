@@ -9,7 +9,6 @@ automake
 backlight-openrc
 base
 bat
-bemenu
 binutils
 bison
 bottom
@@ -41,7 +40,6 @@ flex
 gawk
 gcc
 gettext
-gimp
 git
 gnome-keyring
 gnuchess
@@ -134,12 +132,9 @@ sed
 steam
 stone-soup
 sudo
-sway
-swaylock
 tokei
 ttf-fira-code
 ttf-liberation
-typescript
 unzip
 vkd3d
 vulkan-intel
@@ -148,7 +143,6 @@ which
 wine-gecko
 wine-mono
 wine-staging
-wl-clipboard
 wpa_supplicant
 x86_energy_perf_policy
 xf86-video-amdgpu

@@ -17,9 +17,6 @@ $HOME/.dotfiles
 │     └── alacritty
 ├── git
 │  └── .gitconfig
-├── wayland
-│  └── .config
-│     └── sway
 └── zsh
    ├── .zprofile
    └── .zshrc
